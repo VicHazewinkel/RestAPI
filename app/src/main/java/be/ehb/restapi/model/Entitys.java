@@ -38,5 +38,11 @@ public class Entitys {
     public String getBody() { return body; }
     public void setBody(String value) { this.body = value; }
 
-
+    @Override
+    public String toString() {
+        return "Entitys{" +
+                "title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                '}';
+    }
 }
